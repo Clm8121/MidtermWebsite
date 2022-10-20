@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;500&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body, html {
+  margin:0;
+  padding:0;
+  background-color: black;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top:0px;
+  height: 100%;
+  background-color: #121417;
+  font-family:'Mitr', sans-serif;
+  font-weight: 500;
+  padding: 15px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 130px;
+  padding-right: 35px;
+  font-family:'Mitr', sans-serif;
+}
+
+.a0 {
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  font-weight: lighter;
+  color: #AE45CC;
+}
+
+a, .a1 {
+  text-decoration: none;
+  color: #71dfff;
+  font-size: 22px;
+}
+a, .a1:hover {
+  text-decoration: underline;
+}
+
+a, .a2 {
+  text-decoration: none;
+  color: #9171ff;
+  font-size: 22px;
+}
+a, .a2:hover {
+  text-decoration: underline;
+}
+
+a, .a3 {
+  text-decoration: none;
+  color: #ff71df;
+  font-size: 22px;
+}
+a, .a3:hover {
+  text-decoration: underline;
+}
+
+a, .a4 {
+  text-decoration: none;
+  color: #ff7198;
+  font-size: 22px;
+}
+a, .a4:hover {
+  text-decoration: underline;
+}
+
+.Header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+.headerHome {
+  color: #71dfff;
+}
+.headerResume {
+  color: #9171ff;
+}
+.headerWork {
+  color: #ff71df;
+}
+.headerContact {
+  color: #ff7198;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.Images {
+  text-align: center;
+}
+.aboutmeimage {
+  width: 350px;
+}
+.workimage {
+  width: 500px;
+}
+
+.Text {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 200;
+  color: white;
+}
+.paragraph {
+  word-wrap: break-word;
+}
+
+.footer {
+  display: flex;
+  height: 75px;
+  color: #595959;
+  justify-content: center;
+  align-items: center;
+}
