@@ -115,8 +115,13 @@ a, .a4:hover {
   font-weight: 200;
   color: white;
 }
+.subheader {
+  font-size: 45px;
+}
 .paragraph {
   word-wrap: break-word;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .footer {
